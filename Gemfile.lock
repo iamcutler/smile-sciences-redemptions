@@ -1,3 +1,11 @@
+PATH
+  remote: deal_redemptions
+  specs:
+    deal_redemptions (0.0.1)
+      bootstrap-sass
+      rails (~> 4.1.4)
+      sass-rails (~> 4.0.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -117,6 +125,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   coffee-rails (~> 4.0.0)
+  deal_redemptions!
   jbuilder (~> 2.0)
   jquery-rails
   pg
