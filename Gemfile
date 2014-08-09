@@ -16,7 +16,8 @@ gem 'bootstrap-sass'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
-gem 'deal_redemptions', path: 'deal_redemptions'
+# Our gem for dealing with redemptions
+gem 'deal_redemptions', '0.0.4'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

@@ -1,15 +1,3 @@
-PATH
-  remote: deal_redemptions
-  specs:
-    deal_redemptions (0.0.1)
-      bcrypt (~> 3.1.7)
-      bootstrap-sass
-      haml-rails
-      jquery-rails
-      kaminari
-      rails (~> 4.1.4)
-      sass-rails (~> 4.0.3)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -41,7 +29,7 @@ GEM
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
     bcrypt (3.1.7)
-    bootstrap-sass (3.2.0.0)
+    bootstrap-sass (3.2.0.1)
       sass (~> 3.2)
     builder (3.2.2)
     capistrano (3.2.1)
@@ -62,6 +50,14 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     colorize (0.7.3)
+    deal_redemptions (0.0.4)
+      bcrypt (~> 3.1.7)
+      bootstrap-sass
+      haml-rails
+      jquery-rails
+      kaminari
+      rails (~> 4.1.4)
+      sass-rails (~> 4.0.3)
     erubis (2.7.0)
     execjs (2.2.1)
     haml (4.0.5)
@@ -165,7 +161,7 @@ DEPENDENCIES
   bootstrap-sass
   capistrano-rails
   coffee-rails (~> 4.0.0)
-  deal_redemptions!
+  deal_redemptions (= 0.0.4)
   jbuilder (~> 2.0)
   jquery-rails
   pg
