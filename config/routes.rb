@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  mount DealRedemptions::Engine => 'redeem', as: "deal_redemptions"
+  mount DealRedemptions::Engine, at: '/', as: "deal_redemptions"
 end
