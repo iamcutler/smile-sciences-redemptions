@@ -35,15 +35,6 @@ set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public
 set :keep_releases, 5
 
 namespace :deploy do
-
-  desc 'Restart application'
-  task :restart do
-    on roles(:app), in: :sequence, wait: 5 do
-      # Your restart mechanism here, for example:
-      execute :touch, 'sudo reboot'
-    end
-  end
-
   after :publishing, :restart
 
   after :restart, :clear_cache do
@@ -54,4 +45,6 @@ namespace :deploy do
       # end
     end
   end
+
+  after :publishing, 'deploy:restart'
 end
