@@ -17,7 +17,7 @@ gem 'bootstrap-sass'
 # gem 'therubyracer',  platforms: :ruby
 
 # Our gem for dealing with redemptions
-gem 'deal_redemptions', '0.0.5'
+gem 'deal_redemptions', '0.0.6'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
