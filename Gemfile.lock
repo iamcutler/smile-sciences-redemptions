@@ -53,7 +53,7 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     colorize (0.7.3)
-    deal_redemptions (0.0.6)
+    deal_redemptions (0.0.7)
       bcrypt (~> 3.1.7)
       bootstrap-sass
       haml-rails
@@ -165,7 +165,7 @@ DEPENDENCIES
   capistrano-rails
   capistrano-rvm
   coffee-rails (~> 4.0.0)
-  deal_redemptions (= 0.0.6)
+  deal_redemptions (= 0.0.7)
   jbuilder (~> 2.0)
   jquery-rails
   pg
