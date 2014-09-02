@@ -1,3 +1,17 @@
+GIT
+  remote: git://github.com/iamcutler/deal-redemptions.git
+  revision: 753ad1f3101c9f4f08c5db1f9719f4c3271f7c68
+  branch: 0.0.8
+  specs:
+    deal_redemptions (0.0.8.pre.alpha)
+      bcrypt (~> 3.1.7)
+      bootstrap-sass
+      haml-rails
+      jquery-rails
+      kaminari
+      rails (~> 4.1.4)
+      sass-rails (~> 4.0.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -53,14 +67,6 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     colorize (0.7.3)
-    deal_redemptions (0.0.7)
-      bcrypt (~> 3.1.7)
-      bootstrap-sass
-      haml-rails
-      jquery-rails
-      kaminari
-      rails (~> 4.1.4)
-      sass-rails (~> 4.0.3)
     erubis (2.7.0)
     execjs (2.2.1)
     haml (4.0.5)
@@ -165,7 +171,7 @@ DEPENDENCIES
   capistrano-rails
   capistrano-rvm
   coffee-rails (~> 4.0.0)
-  deal_redemptions (= 0.0.7)
+  deal_redemptions!
   jbuilder (~> 2.0)
   jquery-rails
   pg
