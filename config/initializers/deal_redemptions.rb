@@ -15,5 +15,5 @@ DealRedemptions.configure do |config|
   # config.stylesheet = '/assets/stylesheet.css'
 
   # Email used for outgoing notifications
-  config.email_address = 'noreply@smilesciences.com'
+  config.email_address = 'noreply@redeem.smilesciences.com'
 end
