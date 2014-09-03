@@ -29,13 +29,3 @@ module SmileSciencesRedemptions
     end
   end
 end
-
-# SMTP configuration
-ActionMailer::Base.smtp_settings = {
-  :address   => "smtp.mandrillapp.com",
-  :port      => 587,
-  :user_name => ENV['MANDRILL_USER'],
-  :password  => ENV['MANDRILL_PASSWORD'],
-  :domain    => 'smilesciences.com'
-}
-ActionMailer::Base.delivery_method = :smtp
