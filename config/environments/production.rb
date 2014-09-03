@@ -87,7 +87,9 @@ Rails.application.configure do
     :user_name => ENV['MANDRILL_USER'],
     :password  => ENV['MANDRILL_PASSWORD'],
     :domain    => 'redeem.smilesciences.com',
-    enable_starttls_auto: true
+    :authentication => 'plain',
+    :enable_starttls_auto => true
   }
   config.action_mailer.delivery_method = :smtp
+  config.action_mailer.raise_delivery_errors = false
 end
